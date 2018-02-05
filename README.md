@@ -24,4 +24,4 @@ UbuntuStudio (https://ubuntustudio.org/)
 
 Também vai turbinar seu sistema com alguns truques.
 
-Basta abrir o Terminal na pasta onde se localiza o script e digitar: sudo chmod +x && sudo ./install
+Basta abrir o Terminal na pasta onde se localiza o script e digitar: sudo chmod +x && sudo ./instalar
