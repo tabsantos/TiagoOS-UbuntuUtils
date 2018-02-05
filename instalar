@@ -107,12 +107,6 @@ echo "Ativando para mostrar no Aplicativos Iniciais de Sessão todos serviços i
 sudo sed -i "s/NoDisplay=true/NoDisplay=false/g" /etc/xdg/autostart/*.desktop
 
 
-echo " "
-echo "Incluindo canonical-livepatch: "
-sudo snap install canonical-livepatch
-sudo canonical-livepatch enable dc48425e242e4fa188ed29450a403009
-
-
 echo " " 
 echo "instalando o script atualizar: " 
 chmod 755 atualizar && sudo cp atualizar /usr/bin/
