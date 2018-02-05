@@ -117,7 +117,7 @@ echo " "
 echo "instalando arquivos compilados MrBayes MPI e RevBayes e script atualizar: " 
 chmod 755 mb && sudo cp mb /usr/bin/
 chmod 755 rb && sudo cp rb /usr/bin/
-chmod 755 atualizar && sudo cp rb /usr/bin/
+chmod 755 atualizar && sudo cp atualizar /usr/bin/
 
 
 echo " " 
