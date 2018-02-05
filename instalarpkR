@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo " "
+echo "SUPER-sh-py-R-ubuntu-sci-bio-TIAGO"
+echo "Desenvolvido por Tiago Andrade Borges Santos "
+echo " "
+echo "Vamos instalar uns pacotes massa!"
+echo " "
+echo "Lembrando que o script é interativo. Então, de vez em quando, dê uma olhada no Terminal. "
+
+
+sudo apt-get install r-base* -y
+
+
+echo " " 
+echo "Configurando o cran mirror para https://vps.fmvz.usp.br/CRAN/: " 
+sudo rm /etc/R/Rprofile.site
+sudo cp Rprofile.site /etc/R
+
+
+Rscript pacotes.r
