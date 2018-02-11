@@ -1,0 +1,137 @@
+#!/bin/bash
+
+echo " "
+echo "SUPER-sh-py-R-ubuntu-sci-bio-TIAGO"
+echo "Desenvolvido por Tiago Andrade Borges Santos "
+echo " "
+echo " "
+echo "Backup Ubuntu 16.04.3 Tiago do dia 28/01/2018"
+echo " "
+echo "Trata-se de um programa shell script que vai envenenar seu Ubuntu 16.04.3 com programas de:"
+echo "produtividade "
+echo "escritório "
+echo "bioinformática "
+echo "hacker "
+echo "forense "
+echo "studio de mídias - reprodução e edição "
+echo "programação "
+echo "banco de dados "
+echo "ciência "
+echo "jogos "
+echo "eletrônica "
+echo "SIG "
+echo " "
+echo " "
+echo "Tudo que que você encontra nos projetos BioLinix, BackBox, UbuntuStudio e mais um pouco. "
+echo " "
+echo " "
+echo "Também vai turbinar seu sistema com alguns truques "
+echo " "
+echo "Lembrando que o script é interativo. Então, de vez em quando, dê uma olhada no Terminal. "
+
+echo " "
+echo "Primeiro, atualizar o sistema:"
+
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y && sudo apt-get full-upgrade -y && sudo apt-get autoremove -y && sudo apt-get autoclean && sudo apt-get clean && update-grub
+
+
+echo " "
+echo "Agora vamos instalar o apt-fast, que vai acelerar o download dos programas e atualizações."
+echo "Quando for solicitado, entre apt e apt-get, selecione apt-get. "
+sudo add-apt-repository ppa:apt-fast/stable -y && sudo apt-get update && sudo apt-get install apt-fast -y
+
+
+echo " "
+echo "Instalando as PPAs: "
+sudo add-apt-repository ppa:appgrid/stable -y && sudo add-apt-repository ppa:bitcoin/bitcoin -y && sudo add-apt-repository ppa:clipgrab-team/ppa -y && sudo add-apt-repository ppa:djcj/hybrid -y && sudo add-apt-repository ppa:dobey/redshift-daily -y && sudo add-apt-repository ppa:fossfreedom/rhythmbox -y && sudo add-apt-repository ppa:fossfreedom/rhythmbox-plugins -y && sudo add-apt-repository ppa:i-nex-development-team/stable -y && sudo add-apt-repository ppa:inkscape.dev/stable -y && sudo add-apt-repository ppa:kdenlive/kdenlive-stable -y && sudo add-apt-repository ppa:launcher-list-indicator/ppa -y && sudo add-apt-repository ppa:libreoffice/ppa -y && sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder -y && sudo add-apt-repository ppa:nemh/systemback -y && sudo add-apt-repository ppa:nilarimogard/webupd8 -y && sudo add-apt-repository ppa:noobslab/apps -y && sudo add-apt-repository ppa:openjdk-r/ppa -y && sudo add-apt-repository ppa:openshot.developers/ppa -y && sudo add-apt-repository ppa:otto-kesselgulasch/gimp -y && sudo add-apt-repository ppa:sview/stable -y && sudo add-apt-repository ppa:thomas-schiex/blender -y && sudo add-apt-repository ppa:trebelnik-stefina/tv-maxe -y && sudo add-apt-repository ppa:ubuntugis/ppa -y && sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable -y && sudo add-apt-repository ppa:ubuntuhandbook1/apps -y && sudo add-apt-repository ppa:ubuntuhandbook1/sigil -y && sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa -y && sudo add-apt-repository ppa:umang/indicator-stickynotes -y && sudo add-apt-repository ppa:videolan/stable-daily -y && sudo add-apt-repository ppa:viktor-krivak/pycharm -y && sudo add-apt-repository ppa:vlijm/lswitcher -y && sudo add-apt-repository ppa:webupd8team/atraci -y && sudo add-apt-repository ppa:webupd8team/java -y && sudo add-apt-repository ppa:webupd8team/subtitle-utils -y && sudo add-apt-repository ppa:webupd8team/tor-browser -y && sudo add-apt-repository ppa:wine/wine-builds -y && sudo add-apt-repository ppa:yannubuntu/boot-repair -y
+
+
+echo " "
+echo "Mais uma atualizada no sistema:"
+sudo sudo apt-get update && sudo sudo apt-get upgrade -y && sudo sudo apt-get dist-upgrade -y && sudo sudo apt-get autoremove -y && sudo sudo apt-get autoclean && sudo sudo apt-get clean && sudo sudo apt-get full-upgrade && sudo update-grub
+sudo rm -R /var/log/* 
+sudo mkdir /var/log/sudo apt-get 
+
+
+echo " "
+echo "instalando os programas: "
+sudo apt-get install rhythmbox-plugin-complete python-periscope periscope-nautilus launcher-list-indicator lswitcher pycharm python-biopython sigil python-pip python3-pip axiom med-bio med-imaging-dev sagemath-database-graphs sagemath-database-elliptic-curves sagemath-database-conway-polynomials sagemath-database-polytopes cantor kstars gromacs gretl electric ngspice oregano elmer abyss ampliconnoise arb bedtools bioperl bioperl-run biosquid blast2 blimps-utils bowtie bowtie2 bwa cd-hit cdbfasta seq-gen chimeraslayer clearcut arduino clustal* dialign dotter embassy-domainatrix embassy-domalign embassy-phylip emboss fastdnaml fastqc fasttree fastx-toolkit glam2 happy hmmer infernal jellyfish jemboss last-align libbiojava-java libbiojava-java-demos mafft maq microbiomeutil mira-assembler mothur mummer muscle ncbi-blast+ ncbi-blast+-legacy ncbi-seg ncbi-tools-bin ncbi-tools-x11 njplot paml parsinsert perm phylip phyml picard-tools prank predictprotein primer3 probcons r-base* r-cran-* r-bioc-* r-mathlib r-recommended rasmol raxml ray ray-extra readseq samtools seaview sift sputnik ssake staden staden-common t-coffee tophat transtermhp tree-puzzle treeviewx ugene velvet velvet-example velvet-long velvetoptimiser wise zsh k3b openshot soundconverter sound-juicer kazam tuxguitar solfege scribus xsane calibre docky comix lazarus lyx eclipse bluefish unrar-free gparted chkrootkit global jargon jargon-text libhtml-defang-perl libopengl-xscreensaver-perl passwordmaker-cli pdfcrack thc-ipv6 cfi-en cfi-sv afflib-dbg afflib-tools dc3dd foremost guymager libafflib-dev libapache2-mod-log-slow libtsk-dev libyara-dev mac-robber magicrescue metacam vlc python-yara python3-yara sleuthkit testdisk unhide unhide.rb volatility volatility-tools yara autopsy dcfldd disktype pasco testdisk-dbg xmount gnuplot mysql-server imagej figtree gimp blender inkscape aconnectgui alsa-tools alsa-tools-gui audacity ardour bitscope denemo timemachine gtick hydrogen jackd jackeq jack-rack jack-tools jamin jdelay lilypond lilypond-data meterbridge muse patchage vkeybd qjackctl puredata rosegarden nmap timidity seq24 sooperlooper swami csound freqtweak mixxx terminatorx zynaddsubfx fluidsynth bristol freebirth qsynth tk707 aeolus blop git caps cmt hexter fil-plugins ladspa-sdk mcp-plugins omins swh-plugins tap-plugins dssi-example-plugins dssi-host-jack fluidsynth-dssi xsynth-dssi dssi-utils ffmpeg2theora kino stopmotion dvgrab gimp-data-extras pokerth gimp-gap gimp-ufraw gimp-plugin-registry scribus fontforge hugin agave synfigstudio wine samba steam cups-pdf krita sozi phyutility fatcat python3-hacking guymager libyara3 pepperflashplugin-nonfree synapse ubuntu-restricted-extras unity-tweak-tool bleachbit chromium-browser gdebi unace rar unrar p7zip-full p7zip-rar arj gimp-data-extras gimp-plugin-registry snapd playonlinux compiz compizconfig-settings-manager nautilus-dropbox spyder spyder3 compiz-plugins dconf-editor ipython3-notebook pylint-doc python-egenix-mxdatetime-dbg python-egenix-mxdatetime-doc python-egenix-mxtools-dbg python-egenix-mxtools-doc pyro python-unittest2 texlive-lang-french python-matplotlib-doc python3-cairocffi python3-nose python3-tornado ttf-staypuft python-numpy-doc python3-dev python3-numpy-dbg python-pandas-doc python-psutil-doc python3-pyqt4-dbg python-scipy-doc tortoisehg gitk python-tables-doc vitables tix python3-tk-dbg ubuntustudio-audio ubuntustudio-audio-core ubuntustudio-audio-plugins ubuntustudio-fonts ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing ubuntustudio-video synaptic myspell-pt-br folder-color simplescreenrecorder openjdk-8-jdk pepperflashplugin-nonfree freshplayerplugin indicator-stickynotes atraci clipgrab tor-browser jstest-gtk qjoypad libxtst6 libxtst-dev libx11-dev checkinstall build-essential libreoffice-base adobe-flashplugin systemback boot-repair hyphen-pt-br libreoffice-l10n-pt-br libreoffice-help-pt-br libreoffice-officebean libreoffice-ogltrans libreoffice-pdfimport libreoffice-script-provider-python openclipart-libreoffice openclipart2-libreoffice libreoffice-dmaths libreoffice-lightproof-en libreoffice-templates gimp-lensfun gimp-plugin-registry gimp-texturize pandora gimp-gmic ink-generator orthanc-imagej python3-spyderlib python-spyderlib qgis lamp-server^ librostlab3 libbiococoa2 libbiojava-java* libjebl2-java libncbi6-dbg librostlab3-dev libsbml5* libvibrant6b med-bio-dev med-cloud med-typesetting python-cogent python-csb python-mpltoolkits.basemap python3-csb python3-mpltoolkits.basemap ruby-bio tophat wims raccoon python-biopython* python3-biopython* octave-* python-hacking python3-hacking bottlerocket ophcrack ophcrack-cli cewl denyhosts fcrackzip hydra hydra-gtk labrea lcrack libcgi-application-plugin-captcha-perl libpam-shield nutcracker pdfcrack pyrit rarcrack sipcrack apache2-utils aesfix aeskeyfind libpam-cracklib autopsy dcfldd disktype ext3grep galleta gpart libewf-dbg libghc-cryptonite-dev libtsk13 lime-forensics-dkms pasco reglookup scrounge-ntfs testdisk-dbg wipe xmount afflib-dbg afflib-tools bruteforce-luks ed2k-hash ewf-tools exifprobe ext4magic forensics-all forensics-colorize grokevt guymager hashdeep hashrat libafflib0v5 libewf2 libghc-cryptonite-prof missidentify myrescue nasty opendmarc pipebench plaso pompem python-dfvfs python-libewf rddmarc recoverdm recoverjpeg rifiuti2 rsakeyfind safecopy scalpel shed sleuthkit ssdeep sslsplit tableau-parm tcpxtract testdisk texlive-publishers undbx unhide unhide.rb vinetto wireshark zenmap etherape kismet rkhunter tiger gnupg seahorse tcpdump openssh-server clamav clamtk netcat hping3 ngrep john tcpreplay dsniff scapy ntop nbtscan tripwire python-software-properties science-* games-chess games-console games-emulator games-fps games-programming games-racing games-simulation cmake* gcc-5* libhmsbeagle* openmpi* mpich gedit* ubuntu-server* classicmenu-indicator filezilla appgrid redshift-gtk -y 
+
+
+echo " "
+echo "Provavelmente deve ter terminado com uns erros. Então vamos dar um jeito nisso excluindo alguns programas:"
+sudo apt-get --purge remove biomaj libchado-perl chado-utils evolution evolution-indicator evolution-common evolution-data-server evolution-plugins ubuntu-software -y
+
+
+echo " "
+echo "Mais uma atualizada no sistema:"
+sudo sudo apt-get update && sudo sudo apt-get upgrade -y && sudo sudo apt-get dist-upgrade -y && sudo sudo apt-get autoremove -y && sudo sudo apt-get autoclean && sudo sudo apt-get clean && sudo sudo apt-get full-upgrade && sudo update-grub
+sudo rm -R /var/log/* 
+sudo mkdir /var/log/sudo apt-get 
+
+
+echo " "
+echo "Instalando outros programas: "
+
+sudo apt install libdvd-pkg -y && sudo dpkg-reconfigure libdvd-pkg
+
+sudo apt-add-repository ppa:djcj/hybrid -y && sudo apt-get update && sudo apt-get install ffmpeg -y && sudo ln -sf /opt/ffmpeg/bin/ffmpeg /usr/bin/ffmpeg
+
+apt-get install --install-recommends xserver-xorg-hwe-16.04 -y
+
+echo " STREMIO:"
+wget "https://www.strem.io/download?platform=linux" -O stremio.tar.gz && sudo mkdir /opt/stremio && sudo wget https://www.macupdate.com/images/icons256/56058.png -O /opt/stremio/stremio.png && sudo tar -vzxf stremio.tar.gz -C /opt/stremio/ && sudo ln -sf /opt/stremio/Stremio.sh /usr/bin/stremio && echo -e '[Desktop Entry]\n Version=1.0\n Name=stremio\n Exec=/opt/stremio/Stremio.sh\n Icon=/opt/stremio/stremio.png\n Type=Application\n Categories=Application' | sudo tee /usr/share/applications/stremio.desktop && sudo chmod +x /usr/share/applications/stremio.desktop && cp /usr/share/applications/stremio.desktop  ~/Área\ de\ Trabalho/
+
+echo "POPCORNTIME: "
+wget https://get.popcorntime.sh/build/Popcorn-Time-0.3.10-Linux-64.tar.xz -O popcorntime.tar.xz && sudo mkdir /opt/popcorntime && sudo tar Jxf popcorntime.tar.xz -C /opt/popcorntime/ && sudo ln -sf /opt/popcorntime/Popcorn-Time /usr/bin/Popcorn-Time && echo -e '[Desktop Entry]\n Version=1.0\n Name=popcorntime\n Exec=/opt/popcorntime/Popcorn-Time\n Icon=/opt/popcorntime/src/app/images/icon.png\n Type=Application\n Categories=Application' | sudo tee /usr/share/applications/popcorntime.desktop && sudo chmod +x /usr/share/applications/popcorntime.desktop && cp /usr/share/applications/popcorntime.desktop  ~/Área\ de\ Trabalho/
+
+
+echo " "
+echo "Ativando todos os núcleos do seu processador no boot do Ubuntu: "
+sudo rm /etc/init.d/rc
+sudo cp rc /etc/init.d
+
+
+echo " "
+echo "Removendo a caixa de diálogo de confirmação de desligamento no Ubuntu: "
+gsettings set com.canonical.indicator.session suppress-logout-restart-shutdown true
+
+
+echo " "
+echo "Mudando barra de ferramentas unity:"
+gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+
+
+echo " "
+echo "Ativando para mostrar no Aplicativos Iniciais de Sessão todos serviços inúteis que iniciam junto com o Ubuntu: "
+sudo sed -i "s/NoDisplay=true/NoDisplay=false/g" /etc/xdg/autostart/*.desktop
+
+
+echo " " 
+echo "instalando o script atualizar: " 
+chmod 755 atualizar && sudo cp atualizar /usr/bin/
+
+
+echo " " 
+echo "Instalando pacotes Python " 
+sudo pip install --upgrade pip && sudo pip install cobra biopython NPEparser bioservices biom-format Crimson biotools inspyred biome taggd PBS-utils bioblend BioNEB pyokit biosppy bioread getgrowth bcbio-nextgen biobox_cli bioutils bein dj-bioinformatics-protein mMachine biomartian mamaslemonpy biocyc burrito-fillings gepyto tigreBrowser bio_assembly_refinement biofrills cloudbiolinux intervaltree_bio A3MIO jicbioimage.illustrate biskit biomart bcbio-gff biocma pydpi metaviz pybdf bioscripts.convert rabix cno bgcore bioinfo pyactivetwo jicbioimage.transform rxnconcompiler bioseq bcbio-phyloblast biolib solvebio smallBixTools counttrie Escher bam2x libsam klab jicbioimage.segment moa antz pybio bio-MOSAIC bio_utils pyBioLCCC biobambam_tool bcbiocov seqrecord-expanded pathminer bioformats FishTaco pbcommand idigbio molbiox Longbow tinyfasta febio bcbio_monitor bx-python bioscons BioID fasta Adafruit_BBIO bioscraping gopca Orange-Bioinformatics cdpybio csb jicbioimage abiosgaming.py pyexcel-webio practichem_biodetector bcbreport BioPandas pypipegraph chirp helperlibs Bio_Eutils django-biometrics MUSiCC biopy-isatab multiqc YubiOTP biodocks biokit jicbioimage.core numpy
+
+
+echo " " 
+echo "Instalando pacotes Python3 " 
+sudo pip3 install --upgrade pip && sudo pip3 install --upgrade pip && sudo pip3 install cobra biopython NPEparser bioservices biom-format Crimson biotools inspyred biome taggd PBS-utils bioblend BioNEB pyokit biosppy bioread getgrowth bcbio-nextgen biobox_cli bioutils bein dj-bioinformatics-protein mMachine biomartian mamaslemonpy biocyc burrito-fillings gepyto tigreBrowser bio_assembly_refinement biofrills cloudbiolinux intervaltree_bio A3MIO jicbioimage.illustrate biskit biomart bcbio-gff biocma pydpi metaviz pybdf bioscripts.convert rabix cno bgcore bioinfo pyactivetwo jicbioimage.transform rxnconcompiler bioseq bcbio-phyloblast biolib solvebio smallBixTools counttrie Escher bam2x libsam klab jicbioimage.segment moa antz pybio bio-MOSAIC bio_utils pyBioLCCC biobambam_tool bcbiocov seqrecord-expanded pathminer bioformats FishTaco pbcommand idigbio molbiox Longbow tinyfasta febio bcbio_monitor bx-python bioscons BioID fasta Adafruit_BBIO bioscraping gopca Orange-Bioinformatics cdpybio csb jicbioimage abiosgaming.py pyexcel-webio practichem_biodetector bcbreport BioPandas pypipegraph chirp helperlibs Bio_Eutils django-biometrics MUSiCC biopy-isatab multiqc YubiOTP biodocks biokit jicbioimage.core numpy
+
+
+echo " " 
+echo "Configurando o cran mirror para https://vps.fmvz.usp.br/CRAN/: " 
+sudo rm /etc/R/Rprofile.site
+sudo cp Rprofile.site /etc/R
+
+
+echo " " 
+echo "Terminou, disgraça!" 
+echo " " 
+echo "Agora reinicie o sistema. " 
+echo " " 
+echo "Vai carai!!!" 
+echo " " 
